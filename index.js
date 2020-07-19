@@ -5,6 +5,7 @@ var userChosen = null;
 var gamePattern = [];
 var userPattern = [];
 var level = 0;
+
 $(document).keypress(function() {
   if(gamePattern.length == 0) {
     createNewPattern();
